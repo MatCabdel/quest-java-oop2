@@ -14,6 +14,8 @@ public class Nature {
         System.out.println("3. He sings " + donald.sing());
 
         Eagle thorondor = new Eagle("Thorondor");
+
+        thorondor.setAge(18);
         System.out.println("4. Eagle name is: " + thorondor.getName());
         System.out.println("5. He is " + String.valueOf(thorondor.getAge()));
         System.out.println("6. He sings " + thorondor.sing());

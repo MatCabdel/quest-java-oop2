@@ -2,8 +2,8 @@ public class Eagle extends Bird {
       
     private boolean flying;
     
-	public Eagle(String name) {  
-	    super(name);  
+	public Eagle(String name) {
+	    super(name);
 	    this.flying = false;  
 	}
   
